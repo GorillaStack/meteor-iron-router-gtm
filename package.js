@@ -1,6 +1,6 @@
 Package.describe({
   name: 'gorillastack:iron-router-gtm',
-  version: '0.1.0',
+  version: '0.1.1',
   summary: 'Install google tag manager and track pageviews in iron-router',
   git: 'git@github.com:GorillaStack/meteor-iron-router-gtm.git',
   documentation: 'README.md'
@@ -15,6 +15,7 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'lib/client/body.html',
+    'lib/client/bulldozer.js',
     'lib/client/attach_google_tag_manager.js',
     'lib/client/router.js'
   ], 'client');
@@ -22,6 +23,8 @@ Package.onUse(function(api) {
   api.addFiles([
     'lib/server/set_browser_policy.js'
   ], 'server');
+
+  api.export('gtmBulldozer', 'client');
 });
 
 // Package.onTest(function(api) {
