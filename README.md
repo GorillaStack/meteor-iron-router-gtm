@@ -71,7 +71,7 @@ This is where we name the variable coming from this package and give it a name t
 
 ##### 3.b) Configure trigger on variable
 
-![Configure trigger on variable](https://s3-ap-southeast-2.amazonaws.com/gorillastack-random-public/configure_trigger.png)
+![Configure trigger on variable](https://s3-ap-southeast-2.amazonaws.com/gorillastack-random-public/configure_trigger1.png)
 
 ##### 3.c) Add trigger to any tag
 
