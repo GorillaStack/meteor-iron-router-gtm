@@ -1,6 +1,6 @@
 Package.describe({
   name: 'gorillastack:iron-router-gtm',
-  version: '0.1.1',
+  version: '0.1.2',
   summary: 'Install google tag manager and track pageviews in iron-router',
   git: 'git@github.com:GorillaStack/meteor-iron-router-gtm.git',
   documentation: 'README.md'
