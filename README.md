@@ -83,7 +83,7 @@ Now kick your GTM into debug mode and test whether it's firing VirtualPageview o
 
 #### 4. Configure Google Analytics/Supported Plugins to pass the virtualPageURL
 
-Within your tag configuration, select 'more settings' and configure your 'fields to set', such that the `location` variable is set with your `virtualPageUrl`.
+Within your tag configuration, select 'more settings' and configure your 'fields to set', such that the `location` variable is set with your `virtualPageUrl`.  We also export a variable `virtualHostname` with the same event, such that you can filter or set up exceptions based on the hostname (e.g. filter out localhost).
 
 ![configure fields to set](https://s3-ap-southeast-2.amazonaws.com/gorillastack-random-public/fields_to_set.png)
 
