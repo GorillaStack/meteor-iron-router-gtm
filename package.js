@@ -1,3 +1,9 @@
+/**
+ * HACK INFORMATION
+ * ================
+ * This package was inlined, because it got extended with a fix for query parameters and hash fragment.
+ */
+
 Package.describe({
   name: 'gorillastack:iron-router-gtm',
   version: '0.2.0',
